@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #001f65;
+    --secondary-color: #1d97f1;
+    --tertiary-color: #020d2f;
+    --quaternary-color: #0841c9;
+    --text-color: #c4c7f2;
+    --radius: 2rem;
+    --border: 3px solid var(--secondary-color);
+    --shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --linear-gradient: linear-gradient(0deg,rgba(2, 13, 47, 1) 0%, rgba(8, 65, 201, 1) 100%);
+    
+}

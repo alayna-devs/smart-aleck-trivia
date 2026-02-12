@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'ComicSans';
+    src: url('../public/assets/fonts/Comic\ Sans\ MS.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ComicSans', sans-serif;
+}
+
+html {
+    height: 100vh;
+    background-image: linear-gradient(0deg,rgba(2, 13, 47, 1) 0%, rgba(8, 65, 201, 1) 100%);
+}
+
+body {
+    
+    color: var(--text-color);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
